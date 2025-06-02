@@ -1,0 +1,7 @@
+{"level":"error","message":"Something went wrong: MongoServerError: E11000 duplicate key error collection: test.searches index: userId_1 dup key: { userId: \"6809e959bde5a891868b3085\" }","service":"post-service","timestamp":"2025-05-25T12:52:49.975Z"}
+{"level":"error","message":"Something went wrong: MongoServerError: E11000 duplicate key error collection: test.searches index: userId_1 dup key: { userId: \"6809e959bde5a891868b3085\" }","service":"post-service","timestamp":"2025-05-25T12:54:54.992Z"}
+{"level":"error","message":"Something went wrong: MongooseServerSelectionError: Server selection timed out after 30000 ms","service":"post-service","timestamp":"2025-05-26T10:03:02.699Z"}
+{"level":"error","message":"Something went wrong: MongooseError: Operation `searches.findOneAndDelete()` buffering timed out after 10000ms","service":"post-service","timestamp":"2025-05-26T10:06:28.521Z"}
+{"level":"error","message":"Something went wrong: MongooseError: Operation `searches.insertOne()` buffering timed out after 10000ms","service":"post-service","timestamp":"2025-05-26T10:08:42.747Z"}
+{"level":"error","message":"Something went wrong: MongoServerError: \"$search\" had the wrong type. Expected string, found null","service":"post-service","timestamp":"2025-05-26T14:00:11.586Z"}
+{"level":"error","message":"Something went wrong: MongoServerError: \"$search\" had the wrong type. Expected string, found null","service":"post-service","timestamp":"2025-05-26T14:01:46.616Z"}
